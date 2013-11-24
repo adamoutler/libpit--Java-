@@ -571,7 +571,7 @@ public class PitEntry {
     public String getPartitionDescritpion(){
         String n = System.getProperty("line.separator");
         StringBuilder sb=new StringBuilder();
-        sb.append("This ").append(this.getPartitionTypeFriendlyName()).append(" partion has a ").append(this.getFilesystemTypeFriendlyName()).append(" partition and resides on the ").append(this.getBinFriendlyType()).append(" ").append(this.getHardwareTypeFriendlyName());
+        sb.append("This ").append(this.getPartitionTypeFriendlyName()).append(" partion has a ").append(this.getFilesystemTypeFriendlyName()).append(" partition type, and resides on the ").append(this.getBinFriendlyType()).append(" ").append(this.getHardwareTypeFriendlyName()).append(".");
         return sb.toString();
     }
     
@@ -608,7 +608,7 @@ public class PitEntry {
         sb.append("   FOTA: ").append(this.getFotaName()).append(n);
         sb.append(getPartitionDescritpion());
         if (this.getFotaName().contains("remained")){
-            sb.append(" and the partition will expand to fill the remainder of the ").append(this.getHardwareTypeFriendlyName());
+            sb.append(" The partition will expand to fill the remainder of the ").append(this.getHardwareTypeFriendlyName()).append(".");
         }
         sb.append(n).append(n).append(n);
         return sb.toString();
