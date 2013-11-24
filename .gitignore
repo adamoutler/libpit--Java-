@@ -1,0 +1,9 @@
+# Compiled source #
+###################
+*dist/*.*
+*build/*.*
+
+#  Private Props  #
+###################
+*nbproject/private/*
+

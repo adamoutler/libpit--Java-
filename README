@@ -1,0 +1,23 @@
+This package is developed using NetBeans IDE v7.4 and licensed under GPLv3.
+
+--Build Instructions--
+from the root of this project, run Apache Ant with the command "ant".
+Upon ant build of this project, the compiled jar will be compiled into the dist directory.
+
+--Latest Distributable Version--
+Package: http://jenkins.casual-dev.com/view/All/job/Build%20libpitX/ws/trunk/X/libpitX/dist/libpit-X.jar
+Javadoc: http://jenkins.casual-dev.com/view/All/job/Build%20libpitX/ws/trunk/X/libpitX/dist/javadoc/*zip*/javadoc.zip
+Source: http://jenkins.casual-dev.com/view/All/job/Build%20libpitX/ws/trunk/X/libpitX/src/*zip*/src.zip
+--Older Versions--
+Archives: http://goo.im/devs/AdamOutler/libpitX
+
+--PIT Analysis--
+this libaray has a main method which allows you to specify a PIT file for analysis. You can use this online here.
+Online PIT analyzer: http://jenkins.casual-dev.com/job/Analyze%20PIT%20File/build
+
+--Online Documentation--
+Documentation: http://javadoc.casual-dev.com/namespacecom_1_1casual__dev_1_1libpit_x.html
+See this thread for discussion: http://forum.xda-developers.com/showthread.php?t=2540480
+
+--Additional--
+This package is extracted from an SVN repository and automatically synchronized during build time.  You can find the working source here: https://code.google.com/p/android-casual/source/browse/trunk/#trunk%2FCASUALcore%2Fsrc%2FCASUAL%2Farchiving%2Flibpit
