@@ -2,8 +2,12 @@
 ###################
 *dist/*.*
 *build/*.*
+*build/*
 
 #  Private Props  #
 ###################
 *nbproject/private/*
 
+#  Backup Files   #
+###################
+*.*~
