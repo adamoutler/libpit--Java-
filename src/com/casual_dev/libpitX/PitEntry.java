@@ -1,4 +1,4 @@
-package com.casual_dev.libpitX;
+package CASUAL.archiving.libpit;
 /*PitEntry provides a method of organizing PIT entries and storing PIT data
  *Copyright (C) 2013  Adam Outler
  *

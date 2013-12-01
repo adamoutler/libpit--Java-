@@ -1,4 +1,4 @@
-package com.casual_dev.libpitX;
+package CASUAL.archiving.libpit;
 /*PitInputStream provides tools used for writing a pit.
  *Copyright (C) 2013  Adam Outler
  *
