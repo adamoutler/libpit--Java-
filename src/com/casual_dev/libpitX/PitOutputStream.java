@@ -1,4 +1,4 @@
-package com.casual_dev.libpitX;
+package CASUAL.archiving.libpit;
 /*PitOutputStream provides a set of tools designed to assist with reading PIT files
  *Copyright (C) 2013  Adam Outler
  *
