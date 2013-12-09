@@ -1,4 +1,4 @@
-package CASUAL.archiving.libpit;
+package com.casual_dev.libpitX;
 /*PitEntry provides a method of organizing PIT entries and storing PIT data
  *Copyright (C) 2013  Adam Outler
  *
@@ -287,6 +287,24 @@ public class PitEntry {
     public String getPartitionName() {
         String partitionName = "";
         return new String(part_name).trim();
+    }
+    
+    /**
+     * Proper name of partition used to reference flash location
+     *
+     * @return partition name
+     */
+    public String getOdinFlashablePartitionName() {
+        String partitionName = "";
+        for (int i = 0; i < part_name.length; i++) {
+            //get first part of filename
+            if (part_name[i] == 0) { //break on first \0 byte.
+                break;
+            } else {
+                partitionName = partitionName + part_name[i];
+            }
+        }
+        return new String(partitionName);
     }
 
     /**
