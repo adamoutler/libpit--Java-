@@ -1,4 +1,4 @@
-package com.casual_dev.libpitX;
+package CASUAL.archiving.libpit;
 /*PrintPit prints the pit file provided
  *Copyright (C) 2013  Adam Outler
  *
