@@ -1,4 +1,4 @@
-package CASUAL.archiving.libpit;
+package com.casual_dev.libpitX;
 /*Pitdata provides a way to work with the header information of the PIT file
  *Copyright (C) 2013  Adam Outler
  *
