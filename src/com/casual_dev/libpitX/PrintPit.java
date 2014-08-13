@@ -1,4 +1,4 @@
-package com.casual_dev.libpitX;
+package CASUAL.archiving.libpit;
 /*PrintPit prints the pit file provided
  *Copyright (C) 2013  Adam Outler
  *
@@ -13,7 +13,7 @@ package com.casual_dev.libpitX;
  *  GNU General Public License for more details.
  *
  *  You should have received a copy of the GNU General Public License
- *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ *  along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
  */
 
 
